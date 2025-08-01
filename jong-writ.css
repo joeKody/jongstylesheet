@@ -1,0 +1,240 @@
+/*!
+ *
+ * This stylesheet is a modified version of the Writ CSS and some of awsm.css were also pasted too.
+ * The original Writ CSS is licensed under the ISC license.
+ * And the awsm.css is licensed under the MIT license.
+ *
+ * jong-Writ.css v0.1.0
+ * minify it yourself.
+ *
+ * Writ v1.0.4
+ *
+ * Copyright © 2015, Curtis McEnroe <curtis@cmcenroe.me>
+ *
+ * https://cmcenroe.me/writ/LICENSE (ISC)
+ *
+ *
+ *
+ * awsm.css v2
+ * awsm.css licensed under the MIT.
+ *
+ * The MIT License places almost no restrictions on what you can do with this lib.
+ * You are free to use it in commercial projects as long as the copyright is left intact.
+ *
+ *
+ * License:
+ * Just leave the writ and awsm copyright intact.
+ * I don't care what you do with this but they might idk.
+ */
+
+/* Fonts, sizes & vertical rhythm */
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5rem;
+}
+
+code, pre, samp, kbd {
+    font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
+    font-size: 0.833rem;
+}
+
+kbd { font-weight: bold; }
+h1, h2, h3, h4, h5, h6, th { font-weight: normal; }
+
+/* Minor third */
+h1 { font-size: 2.488em; }
+h2 { font-size: 2.074em; }
+h3 { font-size: 1.728em; }
+h4 { font-size: 1.44em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
+small { font-size: 0.833em; }
+
+h1, h2, h3 { line-height: 3rem; }
+
+p, ul, ol, dl, table, blockquote, pre, h1, h2, h3, h4, h5, h6 {
+  margin: 1.5rem 0 0;
+}
+
+h1:first-child, h2:first-child, h3:first-child,
+h4:first-child, h5:first-child, h6:first-child {
+  margin-top: 0;
+  padding-top: 1.5rem;
+}
+
+ul ul, ol ol, ul ol, ol ul { margin: 0; }
+
+hr {
+	margin: 2rem 0;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Colors */
+body {
+    color: #222;
+}
+
+code, pre, samp, kbd { color: #111; }
+a {
+    color: dodgerblue;
+    transition: color 0.2s ease;
+}
+a:visited { color: royalblue; }
+a:hover {
+    color: rebeccapurple;
+}
+mark { color: inherit; }
+
+code, kbd,pre, samp, thead, tfoot { background-color: rgba(0, 0, 0, 0.05); }
+mark { background-color: gold; }
+
+main aside, blockquote, ins { border: solid rgba(0, 0, 0, 0.05); }
+pre, code, kbd, samp { border: solid rgba(0, 0, 0, 0.1); }
+th, td { border: solid #dbdbdb; }
+
+/* Layout */
+
+body {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 0;
+    border-bottom: 0;
+    padding: 0 1.5rem;
+    min-height: 100vh;
+}
+
+main {
+    position: relative;
+}
+
+body, main, body > footer {
+  display: block; /* Just in case */
+  max-width: 84ch;
+  margin: auto;
+}
+
+footer {
+    margin-bottom: 1rem !important;
+}
+
+main figure, main aside {
+    margin: 1.5rem 0 0 1ch;
+    font-style: italic;
+    color: gray;
+}
+
+main aside {
+  max-width: 26ch;
+  border-width: 0 0 0 0.5ch;
+  padding: 0 0 0 0.5ch;
+}
+
+
+aside:first-child,p:first-child {
+	margin-top: 0
+}
+
+aside:last-child,p:last-child {
+	margin-bottom: 0
+}
+
+@media (min-width:65rem) {
+	aside {
+		position: absolute;
+		right: -12.5rem;
+		width: 9.375rem;
+		max-width: 9.375rem;
+		margin: 0;
+		padding-left: .5em;
+	}
+}
+/* Copy blocks */
+
+blockquote {
+  margin-right: 3ch;
+  margin-left: 1.5ch;
+  border-width: 0 0 0 0.5ch;
+  padding: 0 0 0 1ch;
+}
+
+pre {
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 0.5ch;
+  overflow-x: auto;
+}
+pre code {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  white-space: inherit;
+}
+
+img, audio, video { max-width: 100%; }
+
+/* Lists */
+
+ul, ol, dd { padding: 0 0 0 3ch; }
+dd { margin: 0; }
+
+ul > li { list-style-type: disc; }
+li ul > li { list-style-type: circle; }
+li li ul > li { list-style-type: square; }
+
+ol > li { list-style-type: decimal; }
+li ol > li { list-style-type: lower-roman; }
+li li ol > li { list-style-type: lower-alpha; }
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline;
+  padding-left: 1ch;
+  white-space: nowrap;
+}
+nav ul li:first-child { padding-left: 0; }
+
+/* Tables */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+th, td {
+  border-width: 1px;
+  padding: 0.5ch;
+}
+
+/* Copy inline */
+
+sup, sub {
+  font-size: 0.75em;
+  line-height: 1em;
+}
+
+ins {
+  border-width: 1px;
+  padding: 1px;
+}
+
+mark {
+  padding: 1px;
+}
+
+code, kbd, samp {
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 0.1em 0.2em;
+  white-space: nowrap;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
