@@ -26,6 +26,14 @@ Minify the CSS yourself. It's not that hard.
 </div>
 ```
 
+## wanted list
+https://waldyrious.net/downstyler/
+https://holidaycss.js.org/
+https://rilwis.github.io/bamboo/demo/index.html
+https://cmroanirgo.github.io/inviscss/
+https://markdowncss.github.io/
+https://piranna.github.io/tty.css/
+
 ## Contributing
 just do what you wnat.
 
