@@ -1,0 +1,43 @@
+/*
+jong musl is a stylesheet modified from musl.libc.org stylesheet
+*/
+@media (orientation: landscape) {
+	body {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}
+
+/*
+h1::before {
+	content: "";
+	background-image: url(musl4.svg);
+	margin-right: -10px;
+	width: 46px;
+	height: 90px;
+	display: inline-block;
+}
+*/
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6, th { font-weight: normal; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+th, td {
+    border: solid 1px gray;
+}
+
+
+code {
+	background-color: #e8e8e8;
+	padding: 2px 4px 2px 4px;
+}
