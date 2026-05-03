@@ -27,15 +27,23 @@ Minify the CSS yourself. It's not that hard.
 ```
 
 ## wanted list
-https://waldyrious.net/downstyler/
-https://holidaycss.js.org/
-https://rilwis.github.io/bamboo/demo/index.html
-https://cmroanirgo.github.io/inviscss/
-https://markdowncss.github.io/
-https://piranna.github.io/tty.css/
+- https://waldyrious.net/downstyler/
+- https://holidaycss.js.org/
+- https://rilwis.github.io/bamboo/demo/index.html
+- https://cmroanirgo.github.io/inviscss/
+- https://markdowncss.github.io/
+- https://piranna.github.io/tty.css/
+- https://riggraz.dev/no-style-please/
+- https://zola-no-style-please.demo.gumx.cc/
 
 ## Contributing
 just do what you wnat.
 
 ## License
-idk i think the original authors said that you could do whatever you want just include the license intact.
+- Writ
+  - Copyright © 2015, Curtis McEnroe <curtis@cmcenroe.me>
+  - https://cmcenroe.me/writ/LICENSE (ISC)
+- awsm.css
+  - MIT
+- musl libc
+  - idk i just yanked the css out of them
