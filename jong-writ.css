@@ -30,7 +30,12 @@
 /* Fonts, sizes & vertical rhythm */
 
 html {
+  /* sans-serif fonts
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  */
+  /* serif fonts (new default)
+  */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
     line-height: 1.5rem;
 }
@@ -116,7 +121,7 @@ body, main, body > footer {
 }
 
 footer {
-    margin-bottom: 1rem !important;
+    padding-bottom: 1rem !important;
 }
 
 main figure, main aside {
